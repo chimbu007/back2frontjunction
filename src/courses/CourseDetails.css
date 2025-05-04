@@ -1,0 +1,171 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Left Content Section */
+.content {
+    flex: 1;
+    max-width: 68%;
+  }
+  
+  /* Sidebar (Right Side) */
+  .sidecard {
+    width: 30%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+.breadcrumb {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.breadcrumb .Indicate {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #444;
+}
+
+/* Sidebar Section */
+
+.demo-button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.demo-button:hover {
+  background: #0056b3;
+}
+
+.course-info p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.course-info hr {
+  border: 0.5px solid #ccc;
+}
+
+/* Flex container to align Syllabus & Other Courses */
+.syllabus-container {
+    display: flex;
+    justify-content: space-between;  /* Align items on both sides */
+    align-items: flex-start;  /* Align items to the top */
+    gap: 20px;  /* Add spacing */
+    width: 100%;
+  }
+  
+  /* Course Syllabus (Left Side) */
+  .Coursedetails {
+    width: 65%;  /* Takes most space */
+  }
+  
+  /* Other Courses (Right Side) */
+  .other-courses {
+    width: 30%;  /* Takes less space */
+    background: #e3f2fd;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10%;
+  }
+  .Coursedetails {
+    width: 100%;
+    margin-top: 40px;
+  }
+  
+  .Coursedetails h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .collapsible-container {
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+  }
+  
+  .collapsible-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .toggle-button {
+    font-size: 20px;
+  }
+  
+  .collapsible-content {
+    margin-top: 10px;
+  }
+  
+  .collapsible-content img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+  }
+  
+/* WhatsApp Chat Button */
+.whatsapp {
+  display: block;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background: #25d366;
+  border-radius: 50%;
+}
+
+/* FAQ Section */
+body {
+  background-color: #ffffff; /* White background for the whole page */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+.faq-item {
+  background-color: #f8f8f8; /* Light grey background for questions */
+  border: 1px solid #fdfdfd;
+  padding: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.faq-item.active {
+  background-color: #e6e6e6; /* Slightly darker grey when active */
+}
